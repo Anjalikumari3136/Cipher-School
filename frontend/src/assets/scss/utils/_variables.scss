@@ -1,0 +1,30 @@
+// Premium Color Palette
+$primary: #818cf8; // Indigo 400
+$primary-glow: rgba(129, 140, 248, 0.5);
+$secondary: #2dd4bf; // Teal 400
+$accent: #f472b6; // Pink 400
+
+$dark-bg: #030712; // Extremely dark slate
+$card-bg: rgba(30, 41, 59, 0.7); // Semi-transparent slate
+$card-border: rgba(255, 255, 255, 0.1);
+
+$text-main: #f3f4f6;
+$text-muted: #9ca3af;
+$error: #fb7185; // Rose 400
+$success: #34d399; // Emerald 400
+
+// Typography
+$font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+$font-mono: 'JetBrains Mono', monospace;
+
+// Breakpoints
+$breakpoints: (
+  'sm': 320px,
+  'md': 641px,
+  'lg': 1024px,
+  'xl': 1281px,
+);
+
+// Shadows & Animations
+$shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+$transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
